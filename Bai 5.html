@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>baif 5</title>
+    <style>
+        body{
+            height: 100%;
+            margin: 0;
+            background-image: url("image/hinh-nen-dragon-ball-cuoi-can-dau-van_111004803.jpg");
+            background-repeat: no-repeat;
+            background-size: 100%;
+            color: white;
+
+            ;
+        }
+        .imge{
+            height: 100%;
+            background-size: 100%;
+        }
+        table, td, tr{
+            border-color: white
+        ;
+        }
+        h1{
+            color: white;
+
+            text-align: center;
+        }
+    </style>
+</head>
+<body class="imge">
+<h1>BẢNG CỬU CHƯƠNG</h1>
+<script >
+  let a,b,c;
+  a="<table border='1' width='200' cellspacing='0' cellpadding='3'>"
+  for (b=1;b<=10;b++){
+      a=a+"<tr>";
+      for (c=1;c<=10;c++){
+          a=a+"<td>"+c+"*"+b+"="+b*c+"</td>";
+      } a=a+"</tr>"
+
+  }document.write(a);
+
+</script>
+</body>
+</html>
